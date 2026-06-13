@@ -1,0 +1,8 @@
+# app-ads.txt – DevMai Soft
+# Replace with your actual entries from:
+# AdMob: Monetize > App-ads.txt
+# Unity: Organization Settings > App-Ads.txt
+#
+# Format: network.com, publisher-id, DIRECT, hash
+#
+# --- PASTE YOUR ENTRIES BELOW ---

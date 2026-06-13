@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <rect width="200" height="60" rx="8" fill="#1a1a2e" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="55" y="22" font-family="Arial,sans-serif" font-size="9" fill="#aaa" letter-spacing="0.5">GET IT ON</text>
+  <text x="55" y="43" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#fff">Google Play</text>
+  <g transform="translate(16,14)">
+    <path d="M2 2 L2 28 L24 15 Z" fill="url(#gp)"/>
+    <defs>
+      <linearGradient id="gp" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#00e4ff"/>
+        <stop offset="50%" stop-color="#00c853"/>
+        <stop offset="100%" stop-color="#ffeb3b"/>
+      </linearGradient>
+    </defs>
+  </g>
+</svg>
