@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="arrow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="arrow2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="arrow3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- D letter mark -->
+  <text x="10" y="42" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="white" opacity="0.12">D</text>
+
+  <!-- Three horizontal arrows stacked — software/flow motif -->
+  <!-- Arrow 1 (top) -->
+  <line x1="10" y1="22" x2="42" y2="22" stroke="url(#arrow1)" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="46,22 39,18 39,26" fill="#a78bfa"/>
+
+  <!-- Arrow 2 (middle) -->
+  <line x1="10" y1="32" x2="38" y2="32" stroke="url(#arrow2)" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="42,32 35,28 35,36" fill="#34d399"/>
+
+  <!-- Arrow 3 (bottom) -->
+  <line x1="10" y1="42" x2="44" y2="42" stroke="url(#arrow3)" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="48,42 41,38 41,46" fill="#fb923c"/>
+
+  <!-- Small dot accent top-right -->
+  <circle cx="54" cy="12" r="4" fill="#60a5fa" opacity="0.8"/>
+</svg>
